@@ -1,0 +1,11 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.eqs.core.ApplicationAutoConfiguration,\
+com.eqs.orm.datasource.ApplicationDataSourceAutoConfiguration,\
+com.eqs.orm.dao.ApplicationDaoAutoConfiguration,\
+com.eqs.data.redis.ApplicationRedisAutoConfiguration,\
+com.eqs.swagger.ApplicationSwaggerAutoConfiguration,\
+com.eqs.core.error.ApplicationErrorAutoConfiguration,\
+com.eqs.quartz.ApplicationQuartzAutoConfiguration,\
+com.eqs.security.jwt.JwtAutoConfiguration
+
